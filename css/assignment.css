@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+   font-weight: 300;
+   font-size: 20px;
+    color: white;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto; 
+    
+}
+.header-row{
+    margin: 0 auto 0 auto;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, .9),rgba(0, 0, 0, 0.5)),url(images/pexels-pixabay-159213.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    border-width: 10%;
+    padding: 0px 30px 20px;
+
+    
+}
+
+.left{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+.right{
+    margin-top: 20px;
+}
+.firstbtn {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    border-radius: 50px;
+    font-size: 18px;
+}
+.openbtn{
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    border-radius: 50px;
+    font-size: 18px;
+    display: none;
+}
+
+.main-display{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    /* width: 40%; */
+}
+
+.header-btn{
+    margin-top: 30px;
+}
+.main-display a{
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    background-color:rgb(66, 66, 66);
+    border-radius: 50px;
+}
+
+.first-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px 10px;
+    background-color: black;
+    
+}
+.first-section a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    background-color:rgb(66, 66, 66);
+    border-radius: 50px;    
+}
+
+.second-section{
+    color: black;
+    display: flex;
+    padding: 50px 10px 40px;
+    
+}
+
+.first-part{
+    width: 120%;
+    /* padding: 0px 20px 0px; */
+    line-height: 35px;
+    font-size: 25px;
+    padding: 0px 90px 0px;
+    text-align: left;
+}
+
+.second-part{
+    font-size: 18px;
+}
+
+.paragraph > p{
+    margin-bottom: 20px;
+}
+.owner{
+    margin-top: 10px;
+}
+.owner-details{
+    margin-top: 20px;
+}
+
+
+.third-section{
+    padding: 50px 100px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, 0.9)),url(images/pexels-pixabay-159213.jpg);
+}
+
+h3{
+    text-transform: capitalize;
+    font-size: 27px;
+    margin-top: 25px;
+}
+
+/* .services{
+    
+} */
+
+/* .service-para{
+    
+} */
+.services-details{
+    width: 50%;
+}
+
+.divide{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divide p{
+    text-transform: capitalize;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+
+footer{
+    padding: 30px 30px 30px;
+    background-color: black;
+}
+footer p{
+    text-align: center;
+}
